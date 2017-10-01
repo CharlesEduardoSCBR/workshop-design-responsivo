@@ -8,6 +8,18 @@
     padding: 0 1%;
 }
 
+.logo,
+.busca,
+.barra-nav,
+.menu-principal{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-principal li {
+    float: left;
+}
+
 .secao {
     float: left;
     width: 33.333%;
