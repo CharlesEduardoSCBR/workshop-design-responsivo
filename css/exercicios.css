@@ -1,3 +1,13 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo,
+.secao{
+    padding: 0 1%;
+}
+
 .secao {
     float: left;
     width: 33.333%;
