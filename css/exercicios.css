@@ -56,7 +56,27 @@ img {
         width: 50%;
     }
     
-    .barra-nav{
+}
+
+@media (min-width: 1000px){
+    html{
+        font-size: 1.25em;
+    }
+    
+    .secao {
+        width: 33.333%;
+    }
+}
+
+@media not all and (max-width: 600px){
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+        .barra-nav{
         background: #f0f0f0;
         padding: 1em;
         margin: 0;
@@ -81,26 +101,7 @@ img {
         padding:  1em 0;
         width: 100%;
     }
-}
 
-@media (min-width: 1000px){
-    html{
-        font-size: 1.25em;
-    }
-    
-    .secao {
-        width: 33.333%;
-    }
-}
-
-@media not all and (max-width: 600px){
-    .menu-abrir,
-    .menu-fechar {
-        display: none;
-    }
-}
-
-@media (max-width: 600px){
     .menu-ativo:after{
         content: "";
         display: block;
@@ -111,6 +112,6 @@ img {
         bottom: 0;
         right: 0;
         
-        background:  rgb(0,0,0,0.4);
+        background:  rgba(0,0,0,0.4);
     }
 }
